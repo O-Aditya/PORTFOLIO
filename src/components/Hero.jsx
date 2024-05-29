@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
-import Profilepic from "../assets/kevinRushProfile.png"
+import Profilepic from "../assets/ProfileIMG.jpg"
 
 const container = (delay) =>({
     hidden: {opacity: 0 , x: -100},
@@ -41,11 +41,12 @@ const Hero = () => {
                         </div>
                     </div>
                          <div className="w-full lg:w-1/2 lg:p-8">
-                             <div className="flex justify-center">
+                             <div className="flex justify-center ">
                                <motion.img
                                initial={{opacity: 0 , x:100}}
                                animate={{opacity: 1, x: 0}}
                                transition={{delay: 0.5, duration: 0.5}}
+                                 className="rounded-xl "
                                src={Profilepic} alt="profile" />
                              </div>
                          </div>
