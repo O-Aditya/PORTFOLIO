@@ -1,4 +1,3 @@
-import logo from "../assets/Aditya.png"
 import icon from "../assets/icon.png"
 import { FaLinkedinIn } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
